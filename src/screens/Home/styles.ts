@@ -28,12 +28,25 @@ export const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginTop: 48,
   },
+  form: {
+    flexDirection: 'row',
+    marginBottom: 42,
+    marginTop: 36,
+    width: '100%',
+  },
   input: {
     backgroundColor: '#1F1E25',
     borderRadius: 5,
     color: '#FDFCFE',
+    flex: 1,
     fontSize: 16,
     height: 56,
+    marginRight: 12,
     padding: 16,
+  },
+  listEmptyText: {
+    color: '#FFFFFF',
+    fontSize: 14,
+    textAlign: 'center',
   },
 });
